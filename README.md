@@ -19,7 +19,7 @@ Display in CSS
 
 ## 🔮 ¿Cómo contribuir?
 
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [challenge-html-06](https://github.com/platzimaster/challenge-html-06/)
+Si quieres agregar o mejorar algo, te invito a colaborar directamente en este repositorio: [challenge-html-07](https://github.com/platzimaster/challenge-html-07/)
 
 ## 🔮 Licencia
 
