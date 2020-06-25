@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+main {
+  height: 100vh;
+  background: rgb(245,32,22);
+  background: linear-gradient(45deg, rgba(245,32,22,1) 0%, rgba(242,81,32,1) 25%, rgba(250,162,93,1) 65%, rgba(250,210,157,1) 100%);
+  display: grid;
+}
+
+.modal {
+  padding: 3em;
+  place-self: center;
+  color: #161f4e;
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+button {
+  color: rgba(0, 0, 0, .5);
+  font-family: inherit;
+  font-size: 1.2em;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  transition: .3s;
+}
+button:hover {
+  border: 1px solid rgba(242,81,32,.5);
+  color: rgba(242,81,32,.5);
+}
+
+.modal p {
+  padding: .5em;
+  border-radius: 15px;
+  color: white;
+  background: rgba(242,81,32,.7);
+  cursor: pointer;
+}
+
+.modal-icon img {
+  width: 100px;
+}
+
+.face {
+  color: white;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  font-size: 1em;
+  /* text-align: center; */
+}
+
+span {
+  color: white;
+  font-size: .8em;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
