@@ -1,0 +1,62 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    position: absolute;
+    border-radius: 5px;
+    background: royalblue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: blue;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+}
+
+.container {
+    display: none;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+    background: darkviolet;
+    font-size: 20px;
+}
+
+.modal {
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.modal p {
+    position: absolute;
+    top: 60px;
+}
+
+.modal a {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-decoration: none;
+    color: black;
+}
