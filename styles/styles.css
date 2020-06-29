@@ -391,10 +391,11 @@ body {
     }
 
     .main-container {
-        grid-template: 50% 50% / 100%;
-        grid-gap: 250px;
+        grid-template: 1fr 1fr / 1fr;
+        grid-gap: 20px;
         padding-top: 120px;
         background-image: none;
+        height: auto;
     }
 
     .main-container .front-main {
@@ -410,10 +411,11 @@ body {
     }
 
     .main-container {
-        grid-template: 50% 50% / 100%;
-        grid-gap: 200px;
+        grid-template: 1fr 1fr / 1fr;
+        grid-gap: 20px;
         padding-top: 90px;
         background-image: none;
+        height: auto;
     }
 
     .main-container .front-main {
@@ -428,11 +430,11 @@ body {
     }
 
     .main-container {
-        grid-template: 50% 50% / 100%;
-        grid-gap: 260px;
+        grid-template: 1fr 1fr / 1fr;
+        grid-gap: 20px;
         padding-top: 120px;
         background-image: none;
-
+        height: auto;
     }
 
     .main-container .front-main {
