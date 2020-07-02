@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.alert {
+  padding: 15px;
+  background: red;
+  border-radius: 5px;
+  width: 500px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: 10px;
+}
+
+.buttonClosed {
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 100px;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+}
+
+.buttonClosed:hover {
+  background-color: rgb(216, 71, 71);
+}
+
+.buttonOpened {
+  margin: 10px;
+  padding: 10px 15px;
+}
