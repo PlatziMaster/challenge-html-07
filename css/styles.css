@@ -1,0 +1,18 @@
+.bandera{
+    padding: 50px;
+    margin-top: 10px;
+  /* background-image:linear-gradient(yellow 66.66%, blue 16.66%,  red 16.66%); */
+  background-image:linear-gradient(yellow 33%, blue 33%, blue 66.66%, red 66.66%);
+}
+
+.boton {
+padding: 10px;
+height: 50px;
+/* margin-top: 10px; */
+/* border-radius: 15px; */
+background-image:linear-gradient(yellow 33%, blue 33%, blue 66.66%, red 66.66%);
+}
+
+h5 {
+  font-size: 30px;
+}
