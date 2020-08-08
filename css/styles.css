@@ -1,0 +1,14 @@
+h5 {
+  font-size: 30px;
+}
+.boton {
+  border-radius: -1px;
+  padding: 10px;
+  height: 50px;
+background-image:linear-gradient(yellow 33%, blue 33%, blue 66.66%, red 66.66%);
+}
+.bandera{
+  padding: 50px;
+  margin-top: 10px;
+  background-image:linear-gradient(yellow 33%, blue 33%, blue 66.66%, red 66.66%);
+}
